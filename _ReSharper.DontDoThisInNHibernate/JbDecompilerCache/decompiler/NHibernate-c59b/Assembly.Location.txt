@@ -1,0 +1,1 @@
+﻿C:\working\opensource\DontDoThisInNHibernate\packages\NHibernate.3.3.0.4000\lib\Net35\NHibernate.dll

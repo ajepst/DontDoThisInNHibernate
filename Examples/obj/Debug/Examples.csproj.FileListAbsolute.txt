@@ -1,0 +1,16 @@
+c:\working\opensource\DontDoThisInNHibernate\Examples\obj\Debug\ResolveAssemblyReference.cache
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\Examples.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\Examples.pdb
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\FluentNHibernate.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\Iesi.Collections.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\log4net.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\NHibernate.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\StructureMap.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\FluentNHibernate.xml
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\Iesi.Collections.xml
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\log4net.xml
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\NHibernate.xml
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\StructureMap.pdb
+c:\working\opensource\DontDoThisInNHibernate\Examples\bin\Debug\StructureMap.xml
+c:\working\opensource\DontDoThisInNHibernate\Examples\obj\Debug\Examples.dll
+c:\working\opensource\DontDoThisInNHibernate\Examples\obj\Debug\Examples.pdb

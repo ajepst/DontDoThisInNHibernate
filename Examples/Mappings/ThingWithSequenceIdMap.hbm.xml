@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"> 
+<class xmlns="urn:nhibernate-mapping-2.2" table="SequenceIdThings" name="Examples.Models.ThingWithSequenceId, Examples, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"> 
+     <id name="id" column="ID" type="int">
+       <generator class="NHibernate.Id.Enhanced.SequenceStyleGenerator, NHibernate">
+         <param name="table_name">ID_SEQ_TBL_BSC_SEQ</param> <!-- wow this doesn't work, need to submit to jira-->
+         <param name="value_column">hi_val</param>
+         <param name="initial_value">1</param>
+         <param name="increment_size">1</param>
+         <param name="force_table_use">true</param>
+       </generator>
+     </id>
+   <property name="Name" type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <column name="Name"/> </property> 
+   <property name="Age" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"> 
+   <column name="Age"/> 
+      </property> </class> 
+ </hibernate-mapping>
