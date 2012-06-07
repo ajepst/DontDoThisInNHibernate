@@ -1,6 +1,0 @@
-<Modules>
-  <Module PersistentId="63482F98-69D7-4A21-B78F-B4A5990A6527" ModuleId="Examples" />
-  <Module PersistentId="4F51D3EF-1A9B-4681-81AD-7D35F921EDD5" ModuleId="Tests" />
-  <Module PersistentId="NHibernate, Version=3.3.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" ModuleId="NHibernate" />
-  <Module PersistentId="FluentNHibernate, Version=1.3.0.727, Culture=neutral, PublicKeyToken=8aa435e3cb308880" ModuleId="FluentNHibernate" />
-</Modules>
