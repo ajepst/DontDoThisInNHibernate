@@ -38,6 +38,7 @@ namespace Tests
       [SetUp]
       public virtual void Setup()
       {
+         HibernatingRhinos.Profiler.Appender.NHibernate.NHibernateProfiler.Initialize();
          SetCurrentUserOnThread();
          SetupStructureMap();
          DeleteData();

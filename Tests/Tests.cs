@@ -1,11 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using Examples.Models;
 using NHibernate;
 using NUnit.Framework;
-using System.Data;
-using System.Data.SqlClient;
 
 namespace Tests
 {
@@ -59,7 +56,8 @@ namespace Tests
          // this is horrible but works
          using (ISession session = GetSession())
          {
-            var getAgain = session.Get<ThingWithCompositeId>(new ThingWithCompositeId { FirstName = "Thing", LastName = "One" });
+            var getAgain = session.Get<ThingWithCompositeId>(
+               new ThingWithCompositeId { FirstName = "Thing", LastName = "One" });
             getAgain.Age = 5;
             session.SaveOrUpdate(getAgain);
             session.Flush();
@@ -74,13 +72,6 @@ namespace Tests
       public void AddNewVersionedCompositeIdThing()
       {
          var testThing = new ThingWithVersionedCompositeId { FirstName = "Thing", LastName = "One", Age = 4 };
-
-         // this will work
-//         using (ISession session = GetSession())
-//         {
-//            session.Save(testThing);
-//            session.Flush();
-//         }
 
          // no double query?
          using (ISession session = GetSession())

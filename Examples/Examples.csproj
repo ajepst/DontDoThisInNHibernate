@@ -56,7 +56,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Initialization\Bootstrapper.cs" />
-    <Compile Include="Initialization\ConfigurationFactory.cs" />
     <Compile Include="Initialization\ISessionBuilder.cs" />
     <Compile Include="Initialization\ISessionFactoryBuilder.cs" />
     <EmbeddedResource Include="Mappings\ThingWithSequenceIdMap.hbm.xml">

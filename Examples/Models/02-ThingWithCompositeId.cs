@@ -30,7 +30,9 @@ namespace Examples.Models
          return (FirstName + "|" + LastName).GetHashCode();
       }
       #endregion
-   }    public class ThingWithCompositeId
+   }
+   
+   public class ThingWithCompositeId
    {
       public virtual string FirstName { get; set; }
       public virtual string LastName { get; set; }
